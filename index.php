@@ -14,6 +14,10 @@ ini_set("memory_limit", "1000M");
 require './vendor/autoload.php';
 
 
+echo md5(56976073);
+
+exit;
+
 //cli环境解析参数
 //$str = "first=value&arr[]=foo+bar&arr[]=baz";
 /* $str = "sfds";
