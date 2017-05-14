@@ -1,0 +1,19 @@
+{
+  "name": "wangcong/x",
+  "description": "个人框架",
+  "authors": [
+    {
+      "name": "wangcong",
+      "email": "251957448@qq.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:wangcong099878/ctools.git"
+    }
+  ],
+  "require": {
+    "hello/hello": "dev-master"
+  }
+}

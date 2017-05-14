@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3d0eb9a0bc2dbb99fd6fee3dc8759778",
+    "packages": [
+        {
+            "name": "hello/hello",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wangcong099878/ctools.git",
+                "reference": "07a8376c0af11b2bcbe79802d7ffa999fec7377c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wangcong099878/ctools/zipball/07a8376c0af11b2bcbe79802d7ffa999fec7377c",
+                "reference": "07a8376c0af11b2bcbe79802d7ffa999fec7377c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OSS\\": "src/OSS",
+                    "Hello\\": "src/Hello"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "cason",
+                    "homepage": "http://www.cason.com"
+                }
+            ],
+            "description": "Cason",
+            "homepage": "http://www.cason.com",
+            "support": {
+                "source": "https://github.com/wangcong099878/ctools/tree/master",
+                "issues": "https://github.com/wangcong099878/ctools/issues"
+            },
+            "time": "2017-05-14 05:25:28"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hello/hello": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

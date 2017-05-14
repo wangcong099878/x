@@ -14,10 +14,6 @@ error_reporting(E_ALL | E_STRICT);
 set_time_limit(0);
 ini_set("memory_limit", "1000M");
 
-
-
-//
-
 /* echo md5(56976073);
 
   exit; */
