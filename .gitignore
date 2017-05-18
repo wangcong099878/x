@@ -1,6 +1,7 @@
 /nbproject
-vendor/
+/vendor
 .DS_Store
 .idea/
 test/
 Runtime/
+Config/

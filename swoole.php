@@ -28,17 +28,18 @@ $http->on('request', function ($request, $response) {
 
     $_REQUEST = array_merge($request->get, $request->post);
     $_REQUEST['s'] = $request->server['path_info'];
-    print_r($request->server);
+    //print_r($request->server);
 
 
     ob_start();
     X::route();
-    $result = ob_get_contents();
+    echo $result = ob_get_contents();
 
     ob_end_clean();
 
 
     $response->end($result);
+    return;
 });
 
 $http->start();

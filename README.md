@@ -1,15 +1,15 @@
-#x
+#个人简易框架
 
 #网页请求
 http://192.168.245.208:9588/index/index/ok/1/nginx/1
 
 
 #命令行使用
-php console.php index index ppx=1
-
+php console.php /test/testcli/nginx/777
 
 
 #swoole使用
+php swoole.php
 
 #composer全局参数
 --verbose (-v): 增加反馈信息的详细度。
@@ -90,6 +90,7 @@ composer install
         "monolog/monolog": "dev-bugfix"
     }
 }
+
 当你运行 php composer.phar update 时，你应该得到你修改的版本，而不是 packagist.org 上的 monolog/monolog。
 
 #全局使用中国源

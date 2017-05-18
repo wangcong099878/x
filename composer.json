@@ -14,6 +14,7 @@
     }
   ],
   "require": {
-    "hello/hello": "dev-master"
+    "hello/hello": "dev-master",
+    "catfan/Medoo": "^1.4"
   }
 }
