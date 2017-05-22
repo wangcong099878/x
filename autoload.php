@@ -62,7 +62,12 @@ class X
     public static function run()
     {
 
-        $objPath = 'Controller\\' . self::$controller;
+        if (defined('CONTROLLER_PATH')) {
+            $objPath = 'Controller\\' . CONTROLLER_PATH . '\\' . self::$controller;
+        } else {
+            $objPath = 'Controller\\' . self::$controller;
+        }
+
 
         $obj = new $objPath();
 

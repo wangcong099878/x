@@ -12,7 +12,27 @@ use Medoo\Medoo;
 
 class test
 {
-    public function testcli($pps,$nginx){
+
+    public function testgoto()
+    {
+        //并发中使用
+        $a = 0;
+        $sign = 0;    //定义一个尝试超时时间
+        a:
+        $a++;
+        $sign++;
+
+
+        if ($a < 10) {
+            sleep(1); //停顿1秒
+            goto a;
+        }
+
+        echo $a;
+    }
+
+    public function testcli($pps, $nginx)
+    {
         var_dump($pps);
         var_dump($nginx);
     }

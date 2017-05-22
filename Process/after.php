@@ -14,8 +14,8 @@ class after
     {
 
         echo "<pre>";
-        var_dump(\X::$action);
-        var_dump($_REQUEST);
+        //var_dump(\X::$action);
+        //var_dump($_REQUEST);
         //所有最后的钩子写在这里
         //echo "我在最后面执行了";
     }
